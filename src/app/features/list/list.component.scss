@@ -1,0 +1,11 @@
+.action-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.product-list {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}

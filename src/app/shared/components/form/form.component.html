@@ -1,0 +1,22 @@
+<div class="form-container">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="outline">
+      <mat-label>Título</mat-label>
+      <input
+        matInput
+        type="text"
+        formControlName="title"
+        placeholder="Ex.: Caneta Bic"
+        (blur)="updateErrorMessage()"
+      />
+      <mat-hint>Digite o nome do produto</mat-hint>
+      <mat-error>{{ errorMessage }}</mat-error>
+    </mat-form-field>
+    <div class="form-container-actions">
+      <button mat-stroked-button color="" type="button" (click)="onCancel()">
+        Voltar
+      </button>
+      <button mat-raised-button color="primary" type="submit">Salvar</button>
+    </div>
+  </form>
+</div>
