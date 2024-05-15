@@ -1,27 +1,41 @@
-# AngularStudies
+# Angular 17
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+Projeto de estudo realizado junto ao curso disponibilizado no canal da CodeDimension no YouTube.
+- Link do curso: https://www.youtube.com/watch?v=39r_cpIN214&list=PLXEUJjGpEX7zwdFSAzIPiSf9p0tOeI1Yu
+- Link do canal: https://www.youtube.com/@code.dimension
 
-## Development server
+## O que aprendi?
+- Introdução ao [Angular 17](https://angular.dev/)
+- Configuração do servidor com [JSON-Server](https://github.com/typicode/json-server#readme)
+- Integração com o [Material Design](https://material.angular.io/)
+- Criação de componentes reutilizáveis
+- Estilização de componentes com SASS
+- Configuração de roteamento
+- Criação de formulários para cadastro e edição de produtos com validações e métodos
+- Criação de micro serviços
+- Introdução ao [Signals](https://angular.dev/guide/signals) do Angular
+- Utilização do [DeferBlock](https://angular.dev/guide/defer#defer) para renderização sob demanda
+- Técnicas de refatoração
+- ✨ POO - Programação Orientada a Objetos✨ 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalação do projeto
+Clone o repositório:
+```sh
+git clone https://github.com/estevan-ulian/angular-studies.git
+```
 
-## Code scaffolding
+Instale as dependências e dependências de desenvolvimento.
+```sh
+npm install
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Iniciando os servidores back e frontend
+Rode o servidor JSON-Server (backend)
+```sh
+npm run server
+```
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Rode o servidor do Angular (frontend) 
+```sh
+npm start
+```
